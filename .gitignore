@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env
+__pycache__/
+*.pyc
+logs/
+uploads/
+storage/
+chromadb/
+package-lock.json
+*.node
+*.dll
