@@ -1,0 +1,162 @@
+{
+  "mcpVersion": "2024-11-05",
+  "server": {
+    "name": "sakthi-mcp-server",
+    "version": "1.0.0"
+  },
+  "capabilities": {
+    "resources": {
+      "subscribe": true,
+      "listChanged": true
+    },
+    "tools": {
+      "listChanged": true
+    },
+    "prompts": {
+      "listChanged": true
+    }
+  },
+  "resources": [
+    {
+      "uri": "sakthi://intent/analysis",
+      "name": "intent_analysis",
+      "description": "Sakthi intent for analysis",
+      "mimeType": "application/json",
+      "annotations": {
+        "confidence": 0.0,
+        "entities": {
+          "database": [
+            "oracle",
+            "bigquery"
+          ],
+          "table_name": [
+            "convert",
+            "oracle",
+            "bulk",
+            "collect",
+            "to",
+            "bigquery",
+            "declare",
+            "c_limit",
+            "constant",
+            "pls_integer",
+            "type",
+            "empidtab",
+            "is",
+            "table",
+            "of",
+            "employees.employee_id",
+            "type",
+            "v_emp_ids",
+            "empidtab",
+            "begin",
+            "fetch",
+            "emp_cur",
+            "bulk",
+            "collect",
+            "into",
+            "v_emp_ids",
+            "limit",
+            "c_limit",
+            "forall",
+            "i",
+            "in",
+            "v_emp_ids.count",
+            "update",
+            "employees",
+            "set",
+            "salary",
+            "salary",
+            "where",
+            "employee_id",
+            "v_emp_ids",
+            "i",
+            "end"
+          ],
+          "field_name": [
+            "convert",
+            "oracle",
+            "bulk",
+            "collect",
+            "to",
+            "bigquery",
+            "declare",
+            "c_limit",
+            "constant",
+            "pls_integer",
+            "type",
+            "empidtab",
+            "is",
+            "table",
+            "of",
+            "employees",
+            "employee_id",
+            "type",
+            "v_emp_ids",
+            "empidtab",
+            "begin",
+            "fetch",
+            "emp_cur",
+            "bulk",
+            "collect",
+            "into",
+            "v_emp_ids",
+            "limit",
+            "c_limit",
+            "forall",
+            "i",
+            "in",
+            "v_emp_ids",
+            "count",
+            "update",
+            "employees",
+            "set",
+            "salary",
+            "salary",
+            "where",
+            "employee_id",
+            "v_emp_ids",
+            "i",
+            "end"
+          ]
+        },
+        "parameters": {
+          "batch_processing": true
+        }
+      }
+    }
+  ],
+  "tools": [
+    {
+      "name": "process_intent",
+      "description": "Process analysis intent",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "input_text": {
+            "type": "string"
+          },
+          "context": {
+            "type": "object"
+          },
+          "output_format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "yaml",
+              "sql"
+            ]
+          }
+        },
+        "required": [
+          "input_text"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "generated_by": "sakthi-platform",
+    "intent_type": "analysis",
+    "confidence": 0.0
+  }
+}

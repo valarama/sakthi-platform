@@ -1,0 +1,12 @@
+{
+  "procedure_conversion": {
+    "template": "Convert this Oracle procedure to BigQuery:\n\nORACLE CODE:\n{{ oracle_code }}\n\nGenerate executable BigQuery SQL with:\n1. Proper variable declarations\n2. Loop constructs for batch operations\n3. Error handling\n4. Comments explaining conversion choices\n\nFocus on BigQuery best practices and performance.",
+    "max_tokens": 1000,
+    "temperature": 0.2
+  },
+  "optimization_suggestions": {
+    "template": "Suggest BigQuery optimizations for this converted code:\n\nCONVERTED CODE:\n{{ bigquery_code }}\n\nProvide:\n1. Partitioning strategies\n2. Clustering recommendations\n3. Query optimization tips\n4. Cost optimization suggestions",
+    "max_tokens": 500,
+    "temperature": 0.3
+  }
+}

@@ -10,6 +10,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from dotenv import load_dotenv
 import uvicorn
+import json
+from datetime import datetime
 
 # Load environment
 load_dotenv()
@@ -109,6 +111,36 @@ async def convert_oracle_to_bigquery(
 
         # Generate MCP config using the method we added to SakthiEngine
         mcp_config = sakthi.generate_mcp_config(f"{intent}: {oracle_sql}")
+
+        # Enhanced MCP with more details
+        enhanced_mcp = {
+            "mcpVersion": "2024-11-05",
+            "server": {
+                "name": f"sakthi-oracle-{file.filename.replace('.sql', '')}",
+                "version": "1.0.0",
+                "description": f"Oracle to BigQuery conversion for {file.filename}"
+            },
+            "capabilities": {
+                "resources": {"subscribe": True, "listChanged": True},
+                "tools": {"listChanged": True},
+                "prompts": {"listChanged": True}
+            },
+            "oracle_analysis": {
+                "filename": file.filename,
+                "file_size": len(oracle_sql),
+                "has_bulk_collect": "BULK COLLECT" in oracle_sql.upper(),
+                "has_forall": "FORALL" in oracle_sql.upper(),
+                "has_cursor": "CURSOR" in oracle_sql.upper(),
+                "complexity": "high" if len(oracle_sql) > 1000 else "medium"
+            },
+            "metadata": {
+                "generated_by": "sakthi-platform",
+                "processing_time": datetime.now().isoformat(),
+                "user_intent": intent
+            }
+        }
+
+        mcp_config = json.dumps(enhanced_mcp, indent=2)
 
         # Save to bigquery-output folder
         import pathlib

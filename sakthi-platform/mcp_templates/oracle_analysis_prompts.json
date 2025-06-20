@@ -1,0 +1,17 @@
+{
+  "bulk_collect_analysis": {
+    "template": "Analyze this Oracle BULK COLLECT pattern:\n\n{{ oracle_code }}\n\nProvide:\n1. What data is being processed\n2. Batch size and performance implications\n3. BigQuery equivalent approach\n4. Error handling considerations",
+    "max_tokens": 400,
+    "temperature": 0.1
+  },
+  "forall_analysis": {
+    "template": "Analyze this Oracle FORALL statement:\n\n{{ oracle_code }}\n\nProvide:\n1. Bulk operation pattern\n2. Exception handling approach\n3. BigQuery DML equivalent\n4. Performance optimization tips",
+    "max_tokens": 300,
+    "temperature": 0.1
+  },
+  "cursor_analysis": {
+    "template": "Analyze this Oracle cursor usage:\n\n{{ oracle_code }}\n\nProvide:\n1. Cursor pattern and purpose\n2. Data access pattern\n3. BigQuery loop or set-based alternative\n4. Memory and performance considerations",
+    "max_tokens": 350,
+    "temperature": 0.1
+  }
+}

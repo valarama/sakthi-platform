@@ -1,0 +1,59 @@
+{
+  "mcp_validation_rules": {
+    "required_sections": [
+      "mcpVersion",
+      "server",
+      "capabilities",
+      "resources",
+      "tools",
+      "prompts",
+      "metadata"
+    ],
+    "server_validation": {
+      "name_pattern": "^sakthi-[a-z0-9\\-]+$",
+      "version_pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description_min_length": 10
+    },
+    "resource_validation": {
+      "uri_pattern": "^sakthi://[a-z0-9/\\-_]+$",
+      "required_fields": [
+        "uri",
+        "name",
+        "description",
+        "mimeType"
+      ],
+      "mime_types": [
+        "application/sql",
+        "application/json",
+        "text/plain"
+      ]
+    },
+    "tool_validation": {
+      "name_pattern": "^[a-z0-9_]+$",
+      "required_fields": [
+        "name",
+        "description",
+        "inputSchema"
+      ],
+      "input_schema_required": [
+        "type",
+        "properties"
+      ]
+    },
+    "prompt_validation": {
+      "name_pattern": "^[a-z0-9_]+$",
+      "required_fields": [
+        "name",
+        "description",
+        "arguments",
+        "template"
+      ],
+      "template_min_length": 50
+    },
+    "quality_thresholds": {
+      "minimum_score": 70,
+      "warning_score": 85,
+      "excellent_score": 95
+    }
+  }
+}
