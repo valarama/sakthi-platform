@@ -276,11 +276,14 @@ The **Sakthi Platform** is a cutting-edge AI-driven data processing solution des
 
 ---
 
+
+
 ## 🏛️ Architecture Overview
 
 The following diagram illustrates the Sakthi Platform’s architecture, showcasing the flow between user interfaces, core services, AI agents, and storage systems.
 
-![Sakthi Platform Architecture Diagram](https://github.com/valarama/sakthi-platform/blob/main/sakthi_architecture.svg?raw=true)
+![Sakthi Platform Architecture Diagram](https://github.com/valarama/sakthi-platform/blob/main/docs/sakthi_architecture.svg?raw=true)
+
 
 ## 🛡️ License
 
