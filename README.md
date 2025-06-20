@@ -101,3 +101,20 @@ sakthi-platform/
 ├── storage/                     ← Storage (auto-created)
 └── chromadb/                    ← Vector DB (auto-created)
 
+# 📋 Copy Artifact Contents to Files
+
+Use the following mapping to populate your project files with the artifact content:
+
+| **Artifact Name**                     | **File Location**                         |
+|---------------------------------------|-------------------------------------------|
+| Sakthi Language - Core Implementation | `sakthi-language/core.py`                 |
+| Document Processing Layer             | `document-processor/processor.py`         |
+| GenAI Modeling Agent                  | `genai-modeling-agent/agent_system.py`    |
+| DeepSeek LLM Integration              | `sakthi-llm-integration/llm_provider.py`  |
+| FastAPI Backend                       | `backend/main.py`                         |
+| Next.js Web Interface                 | `web-interface/components/Dashboard.jsx`  |
+| Environment Configuration             | `.env`                                    |
+| Deployment Configuration              | `docker-compose.yml`                      |
+| Deployment Script                     | `deploy.sh`                               |
+
+
