@@ -1,0 +1,92 @@
+{
+  "mcpVersion": "2024-11-05",
+  "server": {
+    "name": "sakthi-mcp-server",
+    "version": "1.0.0"
+  },
+  "capabilities": {
+    "resources": {
+      "subscribe": true,
+      "listChanged": true
+    },
+    "tools": {
+      "listChanged": true
+    },
+    "prompts": {
+      "listChanged": true
+    }
+  },
+  "resources": [
+    {
+      "uri": "sakthi://intent/schema_mapping",
+      "name": "intent_schema_mapping",
+      "description": "Sakthi intent for schema_mapping",
+      "mimeType": "application/json",
+      "annotations": {
+        "confidence": 1.0,
+        "entities": {
+          "database": [
+            "oracle",
+            "bigquery"
+          ],
+          "table_name": [
+            "convert",
+            "oracle",
+            "schema",
+            "to",
+            "bigquery",
+            "with",
+            "data",
+            "type",
+            "optimization"
+          ],
+          "field_name": [
+            "convert",
+            "oracle",
+            "schema",
+            "to",
+            "bigquery",
+            "with",
+            "data",
+            "type",
+            "optimization"
+          ]
+        },
+        "parameters": {}
+      }
+    }
+  ],
+  "tools": [
+    {
+      "name": "process_intent",
+      "description": "Process schema_mapping intent",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "input_text": {
+            "type": "string"
+          },
+          "context": {
+            "type": "object"
+          },
+          "output_format": {
+            "type": "string",
+            "enum": [
+              "json",
+              "yaml",
+              "sql"
+            ]
+          }
+        },
+        "required": [
+          "input_text"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "generated_by": "sakthi-platform",
+    "intent_type": "schema_mapping",
+    "confidence": 1.0
+  }
+}

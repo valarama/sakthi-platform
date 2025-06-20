@@ -1,0 +1,201 @@
+CustomerAge,AccountNumber,AccountType,AccountOpeningDate,ConsentFlag,Balance,OverdraftLimit,SweepThreshold,Signatories,LastActivityDate,AccountStatus,ClosureDate,CreditScore,Branch,AccountPurpose,EmploymentType,KYCStatus,RiskCategory,AccountRelationship,HasLoan,AnnualIncome
+29,733453959822,Salary,11-04-2023,Y,600881.3826,7657.6271,Disabled,1,00:54.8,Dormant,,762,Bangalore,Business,Unemployed,Rejected,High,Primary,N,5L-10L
+51,727150620403,NRE,26-04-2016,N,25354.624,30663.1963,Enabled,1,04:18.8,Active,,336,Kolkata,Personal,Self-Employed,Rejected,Low,Minor,N,5L-10L
+51,757798878475,FD,06-02-2011,Y,767059.4047,20029.4889,Disabled,3,07:45.3,Closed,08-06-2024,349,Mumbai,Savings,Retired,Rejected,Low,Primary,N,10L-20L
+20,775072966260,Savings,21-04-2009,N,128377.2109,15562.5625,Disabled,4,09:40.1,Frozen,,852,Delhi,Business,Unemployed,Verified,Low,NRI,Y,10L-20L
+38,714864180794,Salary,17-05-2022,Y,578358.1643,37168.759,Disabled,3,05:00.3,Frozen,,819,Delhi,Personal,Salaried,Rejected,Medium,NRI,N,>20L
+80,732355679693,Salary,17-11-2021,Y,33814.2351,8255.8739,Disabled,2,22:18.7,Inactive,,501,Chennai,Savings,Unemployed,Verified,High,NRI,Y,2L-5L
+41,775104698545,NRE,31-03-2016,Y,842241.1816,45094.6693,Disabled,2,23:37.0,Inactive,,590,Ahmedabad,Personal,Self-Employed,Verified,High,Minor,Y,>20L
+33,713651534811,NRE,20-10-2016,N,251584.1385,22008.5898,Disabled,3,06:34.8,Inactive,,691,Delhi,Investment,Unemployed,Verified,Low,NRI,Y,<2L
+31,729138908109,Salary,21-12-2019,N,722201.376,9886.815,Disabled,4,02:34.4,Inactive,,626,Delhi,Investment,Self-Employed,Pending,Medium,Joint,N,2L-5L
+42,781217852779,RD,28-01-2024,N,851588.0126,8350.2418,Disabled,1,23:09.4,Active,,570,Kolkata,Personal,Self-Employed,Verified,High,Joint,N,10L-20L
+27,783456998292,FD,01-09-2006,Y,486259.0415,40991.6206,Disabled,5,07:33.3,Frozen,,811,Bangalore,Business,Unemployed,Verified,High,Minor,Y,2L-5L
+62,713855231816,Savings,24-11-2005,N,858061.9854,38804.4735,Disabled,4,14:36.4,Dormant,,389,Delhi,Salary,Retired,Rejected,High,NRI,N,5L-10L
+43,701334699074,NRE,27-10-2008,Y,699416.3782,13955.7697,Enabled,4,01:33.2,Frozen,,694,Kolkata,Investment,Retired,Verified,Low,Primary,N,>20L
+38,776250824893,Current,10-09-2010,Y,585851.3949,11210.5772,Disabled,5,19:44.5,Closed,01-11-2021,444,Hyderabad,Personal,Retired,Pending,High,Minor,N,10L-20L
+72,773303934034,RD,10-09-2023,Y,563602.5255,7842.4121,Disabled,3,01:51.7,Closed,23-08-2021,551,Ahmedabad,Personal,Retired,Verified,Low,Joint,Y,<2L
+25,773440584406,FD,05-09-2008,N,401734.2577,6635.7077,Enabled,5,23:12.6,Frozen,,889,Delhi,Savings,Retired,Verified,Medium,Joint,Y,5L-10L
+61,756426255402,Salary,08-11-2024,N,146369.3787,21815.8313,Enabled,3,13:56.6,Inactive,,827,Chennai,Loan Repayment,Unemployed,Verified,Low,Joint,Y,5L-10L
+31,777223457500,NRE,06-03-2018,N,96036.1323,24577.9093,Enabled,5,23:21.1,Active,,784,Chennai,Savings,Unemployed,Rejected,Medium,NRI,Y,<2L
+68,744660010366,Current,01-08-2015,N,834876.1234,21687.741,Disabled,4,01:55.6,Inactive,,532,Bangalore,Loan Repayment,Retired,Verified,Medium,Minor,N,5L-10L
+71,799029772294,Current,27-11-2018,Y,812559.213,28473.4219,Enabled,1,10:44.9,Closed,26-09-2024,442,Pune,Business,Unemployed,Rejected,Low,Joint,Y,10L-20L
+52,721663113121,Savings,27-09-2013,Y,540667.1146,28963.1332,Enabled,1,02:23.3,Active,,681,Ahmedabad,Business,Self-Employed,Rejected,Medium,Minor,N,2L-5L
+69,788038357559,RD,27-11-2012,N,693983.6698,47683.7109,Enabled,3,12:17.2,Closed,08-01-2024,498,Mumbai,Business,Salaried,Pending,Low,Minor,N,10L-20L
+46,728598119445,RD,31-05-2008,Y,125182.842,30467.3837,Enabled,4,16:56.0,Frozen,,838,Mumbai,Salary,Retired,Pending,Low,Primary,N,10L-20L
+33,747258712952,Current,05-01-2019,N,651251.1974,14692.8588,Enabled,1,06:19.0,Closed,30-01-2021,661,Chennai,Investment,Self-Employed,Pending,Medium,Primary,N,5L-10L
+39,758034105184,RD,16-04-2014,Y,126694.8811,2472.4867,Enabled,4,08:05.8,Active,,714,Chennai,Savings,Salaried,Rejected,High,Primary,N,<2L
+58,721714039139,Savings,07-07-2019,N,266229.7034,16899.228,Disabled,1,02:55.3,Closed,02-09-2022,679,Chennai,Loan Repayment,Salaried,Rejected,High,Joint,Y,10L-20L
+55,781277713669,Salary,21-09-2011,N,243840.7756,5630.0798,Disabled,1,09:16.2,Frozen,,313,Chennai,Personal,Salaried,Verified,High,NRI,Y,5L-10L
+22,794818102276,Savings,23-07-2013,Y,997609.5207,36713.3148,Enabled,5,06:19.9,Frozen,,352,Bangalore,Savings,Retired,Verified,High,NRI,Y,<2L
+60,757935318234,Savings,21-06-2023,N,974958.5218,49790.1465,Enabled,5,18:56.4,Dormant,,861,Delhi,Salary,Unemployed,Pending,Low,NRI,N,2L-5L
+61,742787185410,NRE,27-11-2013,N,748212.8427,3225.4245,Disabled,4,08:29.5,Closed,03-05-2020,596,Hyderabad,Personal,Retired,Rejected,High,Minor,Y,<2L
+24,746848340848,Salary,20-09-2018,Y,362962.8822,19051.1886,Disabled,5,16:59.3,Active,,595,Hyderabad,Business,Self-Employed,Rejected,High,Minor,Y,2L-5L
+23,729108507997,Salary,20-08-2011,N,253584.7331,37951.0912,Disabled,5,21:47.6,Active,,367,Pune,Salary,Retired,Pending,Low,Joint,Y,<2L
+50,744621264409,Current,05-05-2016,Y,218257.5573,7480.4248,Disabled,3,04:20.6,Closed,03-02-2024,476,Ahmedabad,Loan Repayment,Self-Employed,Rejected,Low,NRI,Y,>20L
+45,748889521881,Current,25-12-2014,Y,775469.3268,28203.8981,Disabled,4,06:33.9,Active,,363,Chennai,Salary,Self-Employed,Pending,Medium,Primary,N,2L-5L
+20,745251331694,Savings,28-02-2020,Y,248888.7521,24864.5436,Disabled,4,22:07.6,Closed,12-07-2023,445,Kolkata,Business,Retired,Pending,Medium,Minor,Y,>20L
+37,735326079036,Salary,08-12-2017,Y,61282.2338,34335.268,Enabled,3,09:12.8,Frozen,,581,Ahmedabad,Business,Salaried,Rejected,Low,Joint,Y,>20L
+31,781031927933,NRE,02-03-2017,N,123984.6193,13530.5547,Disabled,4,11:36.1,Frozen,,811,Delhi,Personal,Unemployed,Verified,Low,Primary,N,5L-10L
+70,771320946140,FD,05-07-2007,Y,151834.2227,16950.5916,Enabled,2,20:13.8,Frozen,,800,Bangalore,Salary,Salaried,Rejected,High,Primary,N,10L-20L
+55,705409753229,Salary,10-05-2013,N,669025.929,35564.2179,Disabled,4,02:53.6,Closed,02-08-2024,668,Chennai,Savings,Retired,Rejected,Low,Minor,N,>20L
+70,771822350544,RD,14-10-2011,Y,196432.0278,29194.7875,Enabled,2,17:24.6,Dormant,,790,Bangalore,Investment,Salaried,Rejected,High,Minor,N,5L-10L
+45,725205492385,Salary,12-04-2018,Y,252000.7605,31657.7985,Disabled,3,05:22.0,Dormant,,799,Mumbai,Personal,Unemployed,Pending,Medium,Primary,N,2L-5L
+36,775262416336,Savings,30-05-2013,Y,42410.1598,36456.2921,Enabled,2,07:59.8,Closed,03-11-2020,729,Mumbai,Business,Self-Employed,Rejected,Medium,Primary,N,10L-20L
+29,789563137710,Salary,01-08-2016,N,825946.722,11332.9158,Disabled,5,02:50.0,Inactive,,353,Pune,Salary,Salaried,Rejected,Low,Joint,N,5L-10L
+44,790697865523,NRE,17-09-2015,Y,398687.3203,43312.0002,Disabled,1,14:53.9,Inactive,,836,Mumbai,Investment,Salaried,Pending,Medium,Joint,N,5L-10L
+79,783986173249,Salary,01-07-2021,N,8734.2694,44074.6861,Disabled,4,22:29.0,Dormant,,501,Pune,Personal,Salaried,Verified,High,Joint,N,10L-20L
+65,752133369547,FD,02-05-2011,Y,627991.941,38786.9094,Disabled,4,22:11.3,Closed,22-11-2020,319,Chennai,Salary,Unemployed,Rejected,High,Minor,N,<2L
+52,746759313878,Savings,18-04-2023,N,909952.7321,15188.8845,Disabled,1,04:26.8,Inactive,,467,Chennai,Personal,Unemployed,Verified,Low,Joint,N,>20L
+23,767382712505,RD,09-03-2021,Y,288437.9056,45582.3053,Enabled,1,05:56.7,Frozen,,548,Delhi,Savings,Unemployed,Pending,Low,Primary,N,>20L
+66,770978123223,Savings,02-02-2006,N,2561.4747,9282.2716,Enabled,1,10:48.6,Active,,751,Pune,Loan Repayment,Unemployed,Rejected,Medium,Minor,N,10L-20L
+75,733561378381,RD,09-02-2009,N,283960.4179,47308.8099,Enabled,2,20:04.6,Dormant,,837,Hyderabad,Savings,Unemployed,Verified,High,Minor,Y,>20L
+20,741065693643,Savings,11-10-2019,Y,685820.5125,2930.5777,Disabled,5,14:51.6,Frozen,,340,Mumbai,Personal,Self-Employed,Rejected,High,Joint,N,10L-20L
+54,714118914873,Savings,23-02-2009,N,189059.4847,5472.8381,Disabled,1,12:53.2,Dormant,,634,Bangalore,Savings,Salaried,Rejected,High,Primary,N,10L-20L
+47,735964410744,RD,26-06-2021,N,109469.3694,11886.9391,Enabled,3,09:43.1,Closed,13-07-2021,551,Pune,Investment,Self-Employed,Verified,Medium,Primary,N,5L-10L
+30,735883029444,Current,21-08-2006,N,553653.9498,42716.4014,Disabled,5,20:59.4,Dormant,,740,Delhi,Salary,Salaried,Pending,Medium,Primary,Y,>20L
+31,723910310843,Savings,08-08-2015,N,755165.8955,26636.3659,Disabled,4,12:48.1,Inactive,,487,Kolkata,Business,Unemployed,Pending,High,NRI,Y,2L-5L
+80,768419111891,FD,31-10-2015,Y,100951.4562,40427.5894,Disabled,2,10:54.7,Dormant,,768,Mumbai,Investment,Unemployed,Verified,Medium,Joint,Y,5L-10L
+47,737680334334,RD,04-10-2008,Y,446355.8121,25088.0874,Enabled,2,11:35.4,Dormant,,711,Chennai,Personal,Retired,Verified,Medium,Primary,Y,>20L
+43,755449502165,Salary,28-09-2013,Y,487864.1993,36236.3694,Disabled,3,05:32.3,Dormant,,411,Delhi,Personal,Self-Employed,Rejected,High,Joint,Y,<2L
+45,738470598523,Current,15-01-2018,N,993440.0033,36346.9787,Disabled,3,10:52.3,Inactive,,398,Ahmedabad,Savings,Retired,Rejected,Medium,Minor,Y,>20L
+63,768921585742,FD,21-06-2016,Y,120607.1788,15498.9443,Enabled,4,06:17.7,Inactive,,623,Pune,Salary,Salaried,Verified,Low,Minor,N,10L-20L
+70,710805085633,NRE,26-04-2017,Y,893015.4257,651.7919,Disabled,2,23:33.3,Closed,24-12-2022,343,Mumbai,Salary,Self-Employed,Verified,High,NRI,Y,>20L
+49,754317208911,RD,27-05-2006,N,589280.5773,28898.8514,Disabled,2,12:44.2,Closed,17-01-2023,836,Kolkata,Loan Repayment,Retired,Pending,Medium,NRI,N,2L-5L
+45,776180169157,RD,15-04-2015,Y,517169.1767,9563.4447,Enabled,3,15:31.0,Dormant,,400,Bangalore,Business,Unemployed,Rejected,Medium,NRI,N,>20L
+35,777799020484,NRE,21-08-2006,Y,303153.0886,1886.8562,Disabled,2,18:09.0,Dormant,,616,Chennai,Loan Repayment,Salaried,Rejected,High,Minor,N,<2L
+64,728315429486,NRE,02-04-2008,Y,3190.6773,712.0054,Disabled,4,12:48.8,Active,,864,Kolkata,Personal,Self-Employed,Rejected,Medium,Primary,Y,>20L
+36,722287282814,Current,05-04-2020,N,376885.5144,36113.2528,Disabled,2,16:49.4,Inactive,,612,Kolkata,Savings,Retired,Verified,Low,Minor,N,5L-10L
+50,790718680966,Current,20-09-2013,N,110628.8564,31501.7092,Disabled,2,16:09.7,Active,,836,Bangalore,Personal,Unemployed,Rejected,Low,Primary,Y,10L-20L
+21,737714857612,Current,20-10-2009,N,52643.4068,29404.2969,Disabled,4,01:13.2,Dormant,,753,Bangalore,Business,Salaried,Rejected,Low,Minor,Y,2L-5L
+70,792203866044,FD,10-01-2008,N,102232.565,13052.8772,Disabled,3,11:05.4,Inactive,,300,Bangalore,Savings,Retired,Verified,Medium,Primary,Y,10L-20L
+43,721739036215,Savings,18-08-2005,Y,632732.2755,4870.6051,Disabled,2,02:50.4,Active,,828,Delhi,Personal,Unemployed,Rejected,High,Primary,N,10L-20L
+59,737888875068,Salary,16-12-2005,N,30879.4932,21229.6298,Enabled,1,07:20.0,Closed,27-08-2022,336,Pune,Loan Repayment,Retired,Rejected,High,Primary,Y,5L-10L
+49,738684582068,RD,09-04-2009,Y,552031.8624,2258.4241,Enabled,3,16:43.8,Dormant,,676,Mumbai,Loan Repayment,Unemployed,Rejected,Low,Primary,N,<2L
+27,753672067959,FD,03-01-2015,Y,781416.0334,43015.2094,Enabled,1,10:36.1,Closed,24-06-2020,704,Mumbai,Loan Repayment,Unemployed,Pending,High,Joint,N,10L-20L
+49,781774641226,Current,28-04-2016,N,287825.6584,45974.8742,Enabled,4,21:17.9,Closed,26-01-2024,689,Delhi,Savings,Self-Employed,Verified,High,NRI,Y,5L-10L
+40,770064644627,Salary,21-01-2019,Y,233646.0234,4262.8643,Disabled,2,00:43.1,Closed,06-02-2020,823,Mumbai,Savings,Unemployed,Rejected,Medium,NRI,Y,10L-20L
+29,737359579506,Salary,28-09-2016,Y,140544.4661,2699.4782,Disabled,2,06:28.0,Inactive,,595,Bangalore,Business,Unemployed,Verified,Medium,Minor,Y,<2L
+41,754372743265,NRE,27-12-2022,Y,880685.8169,39156.1848,Enabled,3,14:05.9,Closed,21-08-2020,560,Hyderabad,Savings,Unemployed,Pending,Medium,NRI,Y,2L-5L
+49,780339010265,FD,18-12-2007,Y,911975.3818,15120.5839,Disabled,5,17:19.1,Active,,356,Kolkata,Investment,Self-Employed,Pending,Medium,NRI,N,5L-10L
+23,746668707312,FD,18-06-2009,N,49433.6549,40682.6933,Enabled,2,23:59.6,Active,,895,Bangalore,Business,Unemployed,Rejected,Low,Primary,N,5L-10L
+51,722910157600,FD,16-04-2021,N,953436.9489,40796.3596,Enabled,5,19:42.7,Active,,790,Hyderabad,Savings,Retired,Rejected,Low,Primary,N,2L-5L
+24,718369419400,RD,07-08-2009,Y,214753.063,24922.989,Enabled,1,13:00.9,Active,,730,Chennai,Personal,Retired,Pending,Low,Minor,N,10L-20L
+38,759882633446,Savings,26-02-2019,Y,673696.1106,6782.9884,Disabled,2,01:40.2,Dormant,,786,Pune,Savings,Salaried,Verified,Low,Minor,N,2L-5L
+25,789064233736,Savings,02-04-2006,N,198902.9455,23698.9359,Enabled,2,10:47.6,Dormant,,394,Bangalore,Personal,Retired,Verified,Medium,Minor,N,10L-20L
+54,762537407830,NRE,14-09-2014,Y,216074.8282,45105.8807,Disabled,3,10:14.3,Frozen,,499,Ahmedabad,Investment,Self-Employed,Verified,High,NRI,N,<2L
+19,799705106671,Salary,19-12-2011,N,649616.4483,10036.4872,Enabled,3,02:56.2,Frozen,,880,Bangalore,Business,Salaried,Rejected,Low,Minor,Y,2L-5L
+70,708216664721,NRE,19-03-2024,Y,247743.0532,964.935,Disabled,5,23:25.3,Inactive,,588,Delhi,Savings,Salaried,Rejected,Medium,Minor,N,<2L
+58,778745692134,FD,24-12-2015,N,137249.403,14362.4137,Enabled,1,10:42.4,Active,,531,Chennai,Savings,Salaried,Rejected,High,Joint,Y,5L-10L
+57,733934315338,RD,26-03-2016,Y,346223.1114,30559.5988,Enabled,3,05:19.8,Closed,18-05-2021,304,Ahmedabad,Business,Self-Employed,Pending,Medium,Minor,N,5L-10L
+53,756382546666,Savings,01-01-2012,N,128200.3721,41438.2258,Disabled,4,05:53.4,Frozen,,703,Pune,Savings,Self-Employed,Rejected,High,Minor,N,10L-20L
+65,773934054503,Current,13-03-2020,Y,219114.193,37270.9982,Enabled,2,08:24.9,Closed,13-08-2024,615,Bangalore,Investment,Self-Employed,Rejected,Low,NRI,Y,10L-20L
+75,794109165766,Salary,25-05-2013,N,529566.058,35234.4129,Disabled,2,01:01.8,Dormant,,323,Pune,Investment,Salaried,Rejected,Low,Primary,N,10L-20L
+71,742367362897,FD,14-01-2009,N,798675.8765,26002.5903,Enabled,3,22:29.1,Frozen,,440,Mumbai,Investment,Retired,Rejected,Medium,Joint,Y,2L-5L
+28,700142956870,NRE,04-06-2021,Y,414374.1489,4519.5099,Disabled,5,21:08.3,Inactive,,718,Kolkata,Salary,Unemployed,Verified,High,Minor,N,<2L
+44,709088575577,RD,22-07-2020,Y,822529.2226,5584.5749,Disabled,5,04:52.7,Frozen,,631,Mumbai,Loan Repayment,Self-Employed,Rejected,High,Minor,N,>20L
+44,761386702776,NRE,04-10-2010,Y,736427.1049,1793.2008,Enabled,1,15:42.3,Closed,31-03-2022,408,Ahmedabad,Loan Repayment,Salaried,Verified,Low,NRI,Y,2L-5L
+66,758882392790,Current,14-01-2022,Y,613528.9196,5585.8815,Enabled,1,22:59.9,Inactive,,518,Hyderabad,Loan Repayment,Salaried,Rejected,High,Primary,N,>20L
+66,725754603301,Savings,09-08-2012,N,82812.4809,1498.2685,Enabled,5,11:10.9,Active,,709,Ahmedabad,Business,Self-Employed,Verified,Medium,Primary,N,5L-10L
+57,796459783140,FD,11-07-2022,Y,309119.6736,43285.3239,Enabled,1,02:28.5,Dormant,,814,Hyderabad,Business,Salaried,Rejected,Medium,Primary,N,5L-10L
+80,711815592375,Current,28-03-2020,Y,935103.9102,3689.1313,Enabled,2,13:32.4,Dormant,,440,Mumbai,Salary,Self-Employed,Verified,High,NRI,N,5L-10L
+19,759900962636,NRE,21-05-2011,Y,403728.6737,16229.1161,Enabled,1,08:53.7,Frozen,,590,Bangalore,Business,Retired,Pending,High,Primary,Y,2L-5L
+55,785028930228,Savings,04-11-2018,Y,167212.6523,672.5041,Enabled,3,06:33.7,Closed,08-06-2023,578,Delhi,Loan Repayment,Self-Employed,Verified,Low,Joint,Y,5L-10L
+41,700872776077,RD,30-10-2006,Y,143802.8488,18187.2752,Disabled,4,15:17.5,Closed,02-04-2022,683,Kolkata,Loan Repayment,Unemployed,Rejected,Low,Joint,Y,10L-20L
+44,724880421677,NRE,30-09-2018,Y,276041.9163,16060.4415,Enabled,4,17:19.0,Inactive,,457,Bangalore,Investment,Retired,Pending,Low,Primary,N,2L-5L
+76,766140525545,Current,21-01-2010,N,196582.4346,28473.181,Enabled,2,12:35.8,Inactive,,390,Bangalore,Savings,Unemployed,Verified,Low,Joint,N,2L-5L
+23,773348105470,Current,22-01-2016,Y,674153.092,16373.4809,Enabled,4,18:19.7,Closed,11-03-2022,471,Bangalore,Savings,Unemployed,Verified,Low,Primary,Y,5L-10L
+49,710913948381,RD,21-11-2022,Y,962227.1365,49225.5775,Enabled,2,23:46.9,Dormant,,819,Ahmedabad,Business,Retired,Verified,High,NRI,N,>20L
+19,754609989952,Savings,18-08-2007,Y,674944.0343,6408.7291,Enabled,3,19:44.7,Dormant,,489,Mumbai,Savings,Unemployed,Rejected,Medium,NRI,Y,10L-20L
+39,747273484485,Current,19-02-2014,Y,852648.1002,44409.4178,Disabled,3,23:25.6,Inactive,,500,Hyderabad,Business,Self-Employed,Verified,High,Joint,Y,<2L
+30,773438126188,Salary,09-08-2009,N,715567.7524,5264.7894,Enabled,2,11:03.1,Inactive,,808,Ahmedabad,Personal,Salaried,Verified,Low,Minor,N,10L-20L
+63,772144465818,Savings,20-05-2024,Y,964981.8482,4175.0956,Enabled,1,23:29.3,Inactive,,791,Mumbai,Business,Salaried,Rejected,High,Joint,Y,<2L
+78,724499332023,NRE,24-08-2023,N,87314.2013,7019.2671,Enabled,3,13:31.1,Dormant,,435,Bangalore,Savings,Self-Employed,Rejected,High,Primary,Y,<2L
+49,706255057257,Savings,13-12-2012,Y,708738.373,27676.2884,Enabled,2,22:28.3,Inactive,,597,Hyderabad,Business,Salaried,Pending,Low,Minor,Y,>20L
+34,756366584597,Savings,17-05-2024,Y,383856.2752,33422.0263,Enabled,2,09:09.5,Inactive,,584,Chennai,Personal,Retired,Rejected,High,NRI,Y,5L-10L
+41,706501175232,Savings,25-06-2008,Y,797744.4654,18915.2463,Disabled,2,08:15.2,Frozen,,685,Chennai,Savings,Self-Employed,Rejected,Low,Minor,N,10L-20L
+38,760626755743,NRE,19-09-2005,Y,849345.2132,35219.3361,Disabled,3,09:49.0,Inactive,,602,Delhi,Loan Repayment,Salaried,Verified,Medium,Minor,N,10L-20L
+26,785509546512,Current,27-09-2015,Y,129285.3734,21586.7831,Disabled,3,01:56.8,Frozen,,465,Bangalore,Salary,Retired,Rejected,High,Primary,N,<2L
+33,788983206373,Salary,05-07-2016,N,697805.0091,42311.3217,Disabled,3,22:54.6,Frozen,,410,Kolkata,Business,Retired,Verified,Medium,Primary,N,2L-5L
+26,786274733613,Savings,16-09-2009,N,799391.1953,4881.206,Disabled,2,16:00.8,Dormant,,458,Kolkata,Salary,Self-Employed,Verified,Medium,Joint,Y,10L-20L
+20,748019335170,FD,05-04-2008,Y,857578.2751,35115.7803,Enabled,2,18:38.0,Closed,27-01-2022,647,Pune,Business,Unemployed,Rejected,Medium,NRI,N,>20L
+60,763023170924,Current,21-11-2005,Y,271150.8171,48414.1336,Disabled,4,20:49.0,Frozen,,502,Ahmedabad,Savings,Salaried,Rejected,Medium,Minor,N,<2L
+40,738984109700,FD,02-07-2008,Y,379872.8444,4459.3835,Enabled,3,11:28.1,Dormant,,478,Delhi,Personal,Self-Employed,Pending,Medium,NRI,Y,5L-10L
+73,766369143825,Savings,08-12-2021,Y,840857.0774,36399.819,Enabled,3,01:24.4,Frozen,,609,Delhi,Personal,Self-Employed,Pending,Low,Minor,Y,10L-20L
+79,708871888990,Savings,25-05-2021,N,368729.7627,32094.8737,Disabled,2,09:11.0,Dormant,,501,Hyderabad,Loan Repayment,Salaried,Verified,Medium,Joint,Y,<2L
+39,751791044268,Current,03-09-2018,Y,172784.5293,41014.705,Enabled,3,15:22.9,Active,,300,Kolkata,Business,Self-Employed,Verified,Medium,NRI,N,5L-10L
+76,711631291512,FD,13-11-2006,N,15831.2679,25209.1495,Enabled,1,23:34.5,Dormant,,680,Mumbai,Loan Repayment,Retired,Pending,Medium,NRI,N,10L-20L
+78,755362136344,Current,05-11-2006,Y,100369.8134,45356.4224,Enabled,3,13:18.3,Closed,23-10-2021,414,Chennai,Business,Unemployed,Rejected,Low,NRI,N,<2L
+80,709085465792,RD,24-07-2011,N,358972.0766,41372.2171,Enabled,5,00:42.1,Frozen,,890,Pune,Personal,Retired,Verified,High,Joint,Y,2L-5L
+60,799447491759,FD,07-01-2007,N,827552.7863,28391.0081,Enabled,3,19:54.9,Active,,414,Hyderabad,Loan Repayment,Salaried,Pending,Medium,Minor,N,5L-10L
+18,775304047682,RD,23-04-2022,Y,747264.5284,16374.0911,Enabled,5,06:46.8,Active,,348,Hyderabad,Savings,Unemployed,Verified,High,Joint,Y,2L-5L
+71,722503018794,NRE,12-12-2012,N,483052.6331,1998.4601,Disabled,5,12:40.2,Dormant,,674,Hyderabad,Personal,Unemployed,Verified,Low,Primary,Y,10L-20L
+76,759638173448,NRE,26-08-2017,N,975411.6986,23507.3481,Enabled,1,03:20.8,Active,,479,Mumbai,Loan Repayment,Self-Employed,Verified,High,Minor,Y,2L-5L
+47,757104662206,FD,31-12-2009,Y,795895.647,21609.2133,Disabled,4,00:58.6,Frozen,,888,Chennai,Personal,Retired,Verified,Low,Minor,Y,>20L
+45,790160976417,Salary,22-06-2015,N,923084.2533,36667.4421,Disabled,1,22:23.5,Active,,580,Hyderabad,Loan Repayment,Salaried,Pending,Medium,Minor,Y,<2L
+55,714651894826,Savings,09-05-2011,Y,310419.8699,41099.793,Disabled,5,16:14.0,Frozen,,528,Hyderabad,Savings,Self-Employed,Pending,Low,Minor,N,2L-5L
+23,763646459140,Salary,30-09-2021,Y,338920.7117,29328.7024,Disabled,1,21:03.0,Active,,673,Chennai,Business,Salaried,Verified,Low,NRI,N,<2L
+22,786073379905,Salary,18-01-2023,Y,245610.9855,25477.4315,Disabled,1,05:07.7,Dormant,,355,Delhi,Salary,Unemployed,Pending,High,Minor,N,5L-10L
+73,755691560291,RD,06-03-2013,N,429046.451,38381.0983,Enabled,4,13:45.7,Closed,28-03-2022,473,Mumbai,Investment,Self-Employed,Verified,High,Primary,N,<2L
+39,730052467409,Savings,22-12-2006,N,137680.9933,49111.5464,Disabled,1,13:34.4,Active,,838,Ahmedabad,Savings,Unemployed,Verified,Low,Joint,N,>20L
+76,766453415449,RD,20-01-2018,N,923819.7406,6669.6166,Disabled,2,03:06.8,Active,,404,Mumbai,Business,Salaried,Pending,High,Joint,Y,>20L
+38,742248929213,Salary,17-04-2014,Y,368631.6598,18161.4849,Enabled,5,15:18.6,Inactive,,834,Pune,Personal,Salaried,Verified,Low,Minor,Y,10L-20L
+32,709078522025,Salary,26-11-2022,Y,217488.6139,49421.8007,Disabled,1,08:51.8,Frozen,,358,Bangalore,Business,Unemployed,Pending,Medium,Joint,N,5L-10L
+33,789480291599,Salary,26-06-2009,Y,134344.9187,5726.2146,Disabled,1,04:31.4,Active,,817,Delhi,Savings,Unemployed,Rejected,Low,NRI,Y,>20L
+68,729263715406,NRE,24-02-2013,N,176526.2645,40137.7316,Disabled,3,01:18.1,Closed,10-05-2024,320,Pune,Investment,Retired,Verified,High,NRI,N,<2L
+78,767985197720,Savings,25-12-2013,Y,637707.6286,10659.6356,Enabled,3,00:26.5,Closed,16-10-2022,521,Kolkata,Business,Unemployed,Rejected,High,NRI,Y,2L-5L
+43,765128065524,NRE,20-06-2007,N,301408.0702,34568.1414,Enabled,5,14:19.1,Closed,15-08-2022,714,Kolkata,Savings,Unemployed,Pending,Low,NRI,N,2L-5L
+43,712758847743,FD,08-07-2012,N,672722.6885,4047.3557,Disabled,1,02:07.8,Frozen,,425,Mumbai,Loan Repayment,Salaried,Pending,Medium,Minor,N,>20L
+54,792379548730,Salary,28-06-2005,Y,403376.0884,33712.7324,Enabled,5,18:46.2,Closed,23-09-2024,688,Pune,Salary,Retired,Verified,Medium,NRI,Y,2L-5L
+67,735343821028,Current,14-11-2015,N,502338.598,5415.8465,Enabled,4,10:57.4,Frozen,,534,Delhi,Investment,Self-Employed,Pending,Medium,Minor,Y,2L-5L
+63,740354760666,RD,15-01-2013,Y,780560.793,26546.4145,Disabled,1,09:57.3,Inactive,,345,Kolkata,Investment,Unemployed,Rejected,Medium,NRI,N,5L-10L
+49,710635251014,FD,09-11-2018,N,522415.1529,4736.062,Disabled,5,14:53.5,Closed,21-09-2024,615,Bangalore,Savings,Retired,Pending,High,Minor,Y,5L-10L
+64,703077904760,FD,31-10-2008,N,742079.3711,43902.9486,Enabled,5,00:36.9,Dormant,,685,Kolkata,Business,Self-Employed,Rejected,Medium,NRI,Y,>20L
+43,768859171867,NRE,16-02-2006,Y,72929.779,23105.9461,Disabled,3,05:27.3,Dormant,,593,Chennai,Business,Self-Employed,Rejected,Low,Minor,N,<2L
+72,744117846510,FD,28-11-2009,Y,667213.6457,12776.9665,Enabled,1,08:44.8,Closed,09-07-2023,546,Bangalore,Salary,Retired,Verified,Medium,Primary,N,5L-10L
+74,774138536214,NRE,16-04-2022,N,654850.8567,455.4825,Enabled,2,18:18.8,Dormant,,653,Chennai,Loan Repayment,Retired,Rejected,High,Joint,Y,<2L
+41,790989262998,FD,04-11-2005,Y,258883.2895,237.2847,Enabled,4,14:22.9,Active,,622,Ahmedabad,Loan Repayment,Salaried,Rejected,High,Minor,N,>20L
+69,737246211055,Current,07-09-2005,N,348894.8709,43926.6188,Enabled,2,00:25.7,Dormant,,815,Chennai,Loan Repayment,Self-Employed,Verified,Medium,Primary,N,2L-5L
+57,786907205027,FD,14-04-2015,N,710262.199,41592.3272,Enabled,4,15:04.6,Frozen,,348,Pune,Business,Self-Employed,Verified,Low,NRI,N,10L-20L
+61,794662944948,Salary,10-03-2016,N,467595.8998,15807.6568,Disabled,2,14:05.8,Dormant,,899,Mumbai,Investment,Salaried,Rejected,Medium,NRI,Y,>20L
+40,706378578130,FD,14-06-2021,Y,632927.0286,42046.3192,Enabled,3,23:17.8,Closed,09-11-2024,428,Bangalore,Loan Repayment,Unemployed,Pending,Medium,Joint,N,<2L
+29,766668855454,FD,17-03-2011,Y,606374.6847,23338.3027,Enabled,2,00:36.3,Dormant,,574,Mumbai,Investment,Self-Employed,Rejected,Medium,Minor,N,5L-10L
+77,746221743526,NRE,06-12-2014,N,771963.9685,39398.7021,Enabled,5,06:54.3,Frozen,,474,Pune,Loan Repayment,Self-Employed,Rejected,High,Primary,Y,>20L
+62,702813377297,Savings,03-09-2018,N,609010.301,34234.8808,Disabled,1,22:25.3,Frozen,,437,Chennai,Investment,Salaried,Pending,Medium,Joint,N,10L-20L
+65,783193533349,RD,22-07-2019,N,618072.8128,36156.2369,Disabled,2,13:07.9,Inactive,,574,Kolkata,Investment,Self-Employed,Pending,Medium,Primary,Y,10L-20L
+19,743661910292,Savings,25-09-2020,Y,558362.2241,19519.3427,Enabled,5,08:37.2,Frozen,,491,Ahmedabad,Salary,Retired,Rejected,High,Minor,N,5L-10L
+62,743834727007,Savings,24-02-2019,N,674567.7194,30523.1213,Disabled,2,05:26.4,Inactive,,491,Kolkata,Business,Retired,Pending,Medium,Primary,N,2L-5L
+37,767272782503,Current,25-01-2008,N,150331.0727,22929.6089,Disabled,3,11:26.2,Frozen,,887,Pune,Investment,Self-Employed,Pending,High,Joint,Y,>20L
+67,753054093542,RD,27-09-2016,N,723562.6299,25162.5412,Enabled,4,19:31.7,Closed,30-07-2022,339,Ahmedabad,Investment,Self-Employed,Rejected,Medium,Primary,Y,5L-10L
+37,781807278836,NRE,22-07-2013,Y,784567.4591,11272.2791,Enabled,5,21:20.4,Inactive,,573,Mumbai,Loan Repayment,Unemployed,Verified,Medium,NRI,Y,>20L
+73,711307658804,RD,01-02-2015,N,767187.1007,6492.3915,Enabled,5,17:41.6,Frozen,,344,Kolkata,Investment,Salaried,Rejected,Low,NRI,Y,10L-20L
+49,785674832751,RD,13-03-2018,N,56560.0102,16805.5501,Enabled,5,06:02.4,Dormant,,658,Mumbai,Personal,Unemployed,Pending,Low,NRI,N,2L-5L
+74,725889582912,Salary,11-08-2010,N,628315.7298,22459.6242,Enabled,4,14:33.0,Dormant,,653,Mumbai,Salary,Salaried,Pending,Low,NRI,Y,<2L
+19,753737410221,Savings,14-02-2008,N,439315.3138,42042.5658,Disabled,3,04:54.7,Inactive,,780,Mumbai,Loan Repayment,Self-Employed,Verified,High,Minor,N,5L-10L
+29,773849999090,FD,17-06-2005,N,738965.3321,26042.8869,Enabled,1,20:54.0,Dormant,,515,Bangalore,Investment,Retired,Verified,Medium,Minor,N,10L-20L
+62,774244604617,RD,28-09-2012,N,663197.8413,14209.689,Enabled,2,03:31.7,Inactive,,726,Mumbai,Investment,Retired,Verified,High,Joint,N,2L-5L
+65,767711469068,Savings,20-08-2007,Y,461313.3119,48589.9703,Disabled,5,07:09.0,Closed,03-07-2021,632,Delhi,Savings,Retired,Pending,Low,Minor,N,>20L
+27,798961553821,Savings,17-04-2015,N,136114.816,38005.6342,Disabled,5,08:02.2,Inactive,,366,Kolkata,Salary,Self-Employed,Rejected,Low,Minor,N,5L-10L
+52,707396703071,FD,10-08-2023,N,459243.2296,33710.0422,Disabled,3,03:18.8,Closed,30-11-2023,591,Pune,Investment,Retired,Rejected,Medium,Primary,N,5L-10L
+34,787487176688,NRE,29-10-2014,N,251642.4442,24872.5528,Disabled,5,11:25.1,Active,,846,Kolkata,Business,Unemployed,Rejected,High,Joint,Y,2L-5L
+68,762205065908,NRE,04-07-2024,N,549961.2245,3347.8107,Disabled,4,07:03.7,Dormant,,382,Pune,Savings,Retired,Pending,High,Primary,Y,<2L
+66,752266166018,Savings,10-03-2018,N,439495.7069,647.5126,Enabled,2,06:25.6,Dormant,,408,Ahmedabad,Business,Self-Employed,Verified,High,Joint,N,10L-20L
+72,785194774361,Savings,11-09-2019,N,20212.4372,48562.337,Enabled,5,19:48.1,Inactive,,881,Bangalore,Savings,Salaried,Rejected,Medium,NRI,Y,<2L
+76,755199844507,NRE,13-05-2016,N,636175.4917,27622.0636,Disabled,4,17:21.9,Frozen,,517,Hyderabad,Business,Salaried,Rejected,Low,Primary,N,10L-20L
+71,763440992955,RD,28-06-2022,N,645406.3351,22262.3732,Disabled,5,01:19.8,Inactive,,351,Chennai,Savings,Unemployed,Verified,Low,Joint,N,<2L
+54,734164803547,RD,18-04-2014,N,693156.8358,47274.4345,Enabled,2,13:16.4,Closed,27-06-2021,806,Kolkata,Personal,Salaried,Pending,High,Joint,Y,<2L
+50,712535309223,NRE,31-01-2019,N,347098.7665,47742.1628,Disabled,3,04:41.2,Active,,659,Chennai,Savings,Unemployed,Verified,Medium,Minor,N,10L-20L
+24,791604184038,NRE,16-11-2024,N,896884.433,27148.9503,Disabled,4,12:19.1,Inactive,,600,Pune,Savings,Salaried,Rejected,Low,Joint,N,<2L
+66,719501736500,FD,28-10-2023,N,986083.841,17120.3095,Enabled,2,20:21.5,Closed,29-12-2024,589,Chennai,Investment,Salaried,Rejected,High,Joint,Y,10L-20L
+19,758967597067,Current,24-10-2018,Y,96276.7804,13394.9554,Disabled,4,02:41.1,Closed,05-02-2024,537,Mumbai,Loan Repayment,Self-Employed,Pending,Medium,NRI,Y,10L-20L
+34,796048877381,Current,28-07-2019,Y,24039.1956,31303.0647,Enabled,5,21:42.7,Closed,25-10-2021,609,Pune,Business,Unemployed,Rejected,Medium,Joint,N,2L-5L
+39,789572100376,Current,05-05-2015,Y,261100.5637,11930.1382,Disabled,4,08:01.9,Closed,08-12-2022,319,Mumbai,Investment,Unemployed,Pending,Low,Joint,Y,<2L
+68,749179705600,FD,19-10-2011,Y,362995.3614,7088.6658,Enabled,1,15:31.5,Frozen,,737,Hyderabad,Business,Self-Employed,Pending,High,Primary,N,>20L
+60,749963285855,NRE,08-09-2023,N,442400.8065,706.0639,Enabled,2,03:45.8,Closed,20-11-2021,449,Chennai,Business,Retired,Pending,Medium,Primary,N,5L-10L
+45,722500324120,Salary,12-09-2022,N,437344.073,37703.6984,Disabled,5,17:56.6,Active,,522,Mumbai,Investment,Retired,Pending,Medium,NRI,Y,2L-5L
+68,704694488329,RD,05-11-2016,N,562994.1386,20318.9248,Disabled,2,01:59.8,Frozen,,758,Pune,Salary,Unemployed,Rejected,Medium,Minor,Y,5L-10L
+28,707350163365,FD,19-08-2011,Y,199087.4303,49785.0226,Enabled,5,00:13.4,Active,,425,Kolkata,Investment,Retired,Pending,Low,Primary,Y,5L-10L
+70,727873043701,Savings,22-05-2016,Y,40162.053,45622.4172,Enabled,4,02:51.3,Dormant,,591,Pune,Savings,Salaried,Rejected,High,Joint,N,5L-10L
+75,757687619103,RD,17-09-2019,Y,450628.1647,12314.1584,Disabled,4,15:49.7,Closed,17-11-2020,468,Kolkata,Loan Repayment,Self-Employed,Rejected,Medium,Joint,N,2L-5L
+29,779082132992,NRE,05-03-2005,Y,892044.7523,9014.8513,Disabled,4,20:40.0,Inactive,,401,Bangalore,Personal,Unemployed,Verified,Low,Primary,N,>20L
+65,773033983479,FD,03-12-2019,Y,371269.6492,43500.1276,Disabled,2,04:33.8,Frozen,,571,Pune,Loan Repayment,Salaried,Rejected,Low,Minor,Y,2L-5L
+19,700324194198,Savings,10-01-2006,N,900217.0139,17480.4829,Disabled,2,02:21.2,Dormant,,306,Delhi,Loan Repayment,Unemployed,Pending,High,NRI,N,<2L

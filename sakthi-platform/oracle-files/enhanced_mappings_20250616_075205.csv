@@ -1,0 +1,181 @@
+target_table,target_column,target_field,source_table,source_column,confidence_score,mapping_type,business_reasoning,llm_provider,llm_enhanced,langgraph_iterations,final_confidence,improvement_attempted,source_matches_count,data_quality_concerns,alternate_mappings_count,processing_timestamp,batch_number,is_test_record
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,ANB_ID,ACCOUNT_ACH_BATCH_LIMIT_REPORT.ANB_ID,VIEW_ACTVSUBACTV_PCI,TABLEID,50,llm_fallback,"LLM response parsing failed: 
+``` 
+This is a step-by-step guide to help you understand the process of mapping target fields in your banking data. It's important that this information helps ensure accurate and efficient use of ban...",deepseek,True,2,50,True,10,,0,2025-06-16T06:41:20.952381,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,COMPANY_ID,ACCOUNT_ACH_BATCH_LIMIT_REPORT.COMPANY_ID,VIEW_ACHFILERECORDWAREHOUSE,COMPANYID,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.COMPANYID' from source candidates provided in your question, based on their similarity scores and data type...",deepseek,True,2,50,True,10,,0,2025-06-16T06:42:22.867451,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,COMPANY_NAME,ACCOUNT_ACH_BATCH_LIMIT_REPORT.COMPANY_NAME,VIEW_ACHFILERECORDWAREHOUSE,COMPANYNAME,50,llm_fallback,"LLM response parsing failed: 
+``` 
+This is a common issue when dealing with data mapping in banking systems. The best source match can be determined by comparing the similarity score of each candidate against your target field's ...",deepseek,True,2,50,True,10,,0,2025-06-16T06:43:06.089456,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,ACH_COMPANY_ID,ACCOUNT_ACH_BATCH_LIMIT_REPORT.ACH_COMPANY_ID,VIEW_ACHFILERECORDWAREHOUSE,COMPANYID,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a mapping analysis for the field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.ACH_COMPANY_ID'. The source candidates are: VIEW_ACHFILERECORDWAREHOUSE.COMPANYNAME, CTRYADDRFORMAT.ADDRCOMPTYPCD and 
+...",deepseek,True,2,50,True,10,,0,2025-06-16T06:43:51.119879,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,ACH_COMPANY_NAME,ACCOUNT_ACH_BATCH_LIMIT_REPORT.ACH_COMPANY_NAME,VIEW_ACHFILERECORDWAREHOUSE,COMPANYNAME,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a common issue when dealing with data mapping in banking systems. The best source match can be determined by comparing the similarity score of each candidate against your target field'...",deepseek,True,2,50,True,10,,0,2025-06-16T06:44:26.668435,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,MARKET_SEGMENT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.MARKET_SEGMENT,WH_DEPOSIT,RETIREMENT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a mapping problem where you need to map the field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.MARKET_SEGMENT' from source candidate #1 (SOURCE: WH_DEPOSIT.RETIREMENT) with target data type VARCHAR...",deepseek,True,2,50,True,10,,0,2025-06-16T06:44:59.538916,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,BUSINESS_UNIT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.BUSINESS_UNIT,VIEW_WH_ACCTCOMMON,BUSINESSPHONE,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a common issue when dealing with data mapping. The best source match depends on the similarity score and context of your sources, but in this case it seems like SOURCE: STATE.BUSINESSV...",deepseek,True,2,50,True,10,,0,2025-06-16T06:45:40.761095,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,TOTAL_DAILY_TRANSACTION_CREDIT_AMOUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.TOTAL_DAILY_TRANSACTION_CREDIT_AMOUNT,WH_ACCT,TRANSACTIONACCTYN,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,7,,0,2025-06-16T06:46:09.681455,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,TOTAL_DAILY_TRANSACTION_DEBIT_AMOUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.TOTAL_DAILY_TRANSACTION_DEBIT_AMOUNT,WH_ACCT,TRANSACTIONACCTYN,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,7,,0,2025-06-16T06:46:43.653330,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,TOTAL_DAILY_BATCH_CREDIT_COUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.TOTAL_DAILY_BATCH_CREDIT_COUNT,WORKITEM,COLLBATCHRESULTNBR,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step process to map the target field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.TOTAL_DAILY_BATCH_CREDIT_COUNT' from source candidates provided above, based on their similarity scores a...",deepseek,True,2,50,True,10,,0,2025-06-16T06:47:20.789555,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,TOTAL_DAILY_BATCH_COUNT_DEBIT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.TOTAL_DAILY_BATCH_COUNT_DEBIT,WH_ACCTLOAN,TOTALPAYMENTSDUE,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,6,,0,2025-06-16T06:47:50.620253,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,TOTAL_DAILY_BATCH_CREDIT_AMOUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.TOTAL_DAILY_BATCH_CREDIT_AMOUNT,STAGLOANTRIAL,SOLDACCRUEDINTAMT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a banking data expert's response to the question. The system suggests that 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.TOTAL_DAILY_BATCH_CREDIT_AMOUNT', which seems like it might be related with f...",deepseek,True,2,50,True,9,,0,2025-06-16T06:48:32.328003,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,TOTAL_DAILY_BATCH_DEBIT_AMOUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.TOTAL_DAILY_BATCH_DEBIT_AMOUNT,VIEW_WH_CARDS2_PCI,COMBINEDDAILYWTHDLLIMITAMT,50,llm_fallback,"LLM response parsing failed: 
+``` 
+The best source candidate is the one with highest similarity score of `0.325` which means it's a good match for 'ACCOUNT_ACH_BATCH_LIMIT_REPORT'.TOTAL_DAILY_BATCH_DEBIT_AMOUNT', considering all ...",deepseek,True,2,50,True,6,,0,2025-06-16T06:49:17.339210,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,SINGLE_BATCH_CREDIT_AMOUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.SINGLE_BATCH_CREDIT_AMOUNT,STAGLOANTRIAL,SOLDACCRUEDINTAMT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.SINGLE_BATCH_CREDIT_AMOUNT' from source STAGLOANTRIAL based on similarities and data types, domains etc., for bank...",deepseek,True,2,50,True,10,,0,2025-06-16T06:49:52.214851,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,SINGLE_BATCH_DEBIT_AMOUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.SINGLE_BATCH_DEBIT_AMOUNT,STAGLOANTRIAL,SINGLEACCTODLIMIT,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,7,,0,2025-06-16T06:50:29.827741,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,SINGLE_BATCH_ENTRY_CREDIT_AMOUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.SINGLE_BATCH_ENTRY_CREDIT_AMOUNT,STAGLOANTRIAL,SOLDACCRUEDINTAMT,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,7,,0,2025-06-16T06:51:05.873927,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,SINGLE_BATCH_ENTRY_DEBIT_AMOUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.SINGLE_BATCH_ENTRY_DEBIT_AMOUNT,STAGLOANTRIAL,SINGLEACCTODLIMIT,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,6,,0,2025-06-16T06:51:43.219362,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,SEC_CODES_CREDIT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.SEC_CODES_CREDIT,STAGLOANTRIAL,ODEXCESSACCRUEDINT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.SEC_CODES_CREDIT' from source candidates provided above, based on their similarity scores and data types: N...",deepseek,True,2,50,True,10,,0,2025-06-16T06:52:17.443626,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,SEC_CODES_DEBIT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.SEC_CODES_DEBIT,STAGSEARCHFORPARTY,SEARCHCONTENT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a complex task that involves understanding the data types and relationships between different sources. The best mapping would be one where you map 'ACCOUNT_ACH_BATCH_LIMIT_REPORT' to S...",deepseek,True,2,50,True,10,,0,2025-06-16T06:52:47.366460,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,ALLOW_MIXED,ACCOUNT_ACH_BATCH_LIMIT_REPORT.ALLOW_MIXED,RTXNTYP,ALLOWSWIMYN,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.ALLOW_MIXED' from source candidates provided in your question, based on their similarity scores and data ty...",deepseek,True,2,50,True,10,,0,2025-06-16T06:53:24.742776,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,OFFSET_ACCOUNT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.OFFSET_ACCOUNT,WH_TIMETRACK,RECCOUNT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step analysis of the data source candidates. The best match for 'ACCOUNT_ACH_BATCH_LIMIT_REPORT' field from your system would be based on similarity score and primary key sta...",deepseek,True,2,50,True,10,,0,2025-06-16T06:53:55.992205,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,PROCESSING_TIME,ACCOUNT_ACH_BATCH_LIMIT_REPORT.PROCESSING_TIME,STAGLOANTRIAL,ODEXCESSINTRATE,50,llm_fallback,"LLM response parsing failed: 
+``` 
+The best source match is the SOURCE: SYSTEMBATCHRTXNPROCSTATUS.CURRPROCESSOWNER with a similarity score of approximately .4054, which indicates that it's an appropriate choice for mapping 'ACCOU...",deepseek,True,2,50,True,10,,0,2025-06-16T06:54:32.350086,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,PROCESSING_DATE_OPTIONS,ACCOUNT_ACH_BATCH_LIMIT_REPORT.PROCESSING_DATE_OPTIONS,VIEW_ACCTGRPACCT,LSECINTOPTIONCD,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to help you understand the data source and its similarity score. The best match will be selected based on your specific needs, such as whether it's an exact or sim...",deepseek,True,2,50,True,10,,0,2025-06-16T06:55:32.965380,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,APPROVAL_REQUIRED,ACCOUNT_ACH_BATCH_LIMIT_REPORT.APPROVAL_REQUIRED,WH_PROP2,PROPVALUE,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.APPROVAL_REQUIRED' from source candidates provided in your question, based on their similarity scores and d...",deepseek,True,2,50,True,10,,0,2025-06-16T06:56:09.275940,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,PREFUNDING_REQUIRED,ACCOUNT_ACH_BATCH_LIMIT_REPORT.PREFUNDING_REQUIRED,WH_ACCT,OPENFUNDSOURCECD,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,10,,0,2025-06-16T06:56:45.778841,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,LAST_MODIFIED_BY,ACCOUNT_ACH_BATCH_LIMIT_REPORT.LAST_MODIFIED_BY,STAGBANKMATCH,LAST_NAME,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.LAST_MODIFIED_BY' from source candidates provided above, based on similarity scores and data types of each ...",deepseek,True,2,50,True,10,,0,2025-06-16T06:57:38.526867,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,LAST_MODIFIED_TIME,ACCOUNT_ACH_BATCH_LIMIT_REPORT.LAST_MODIFIED_TIME,VIEW_CARDTXN_PCI,ELAPSEDTIME,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.LAST_MODIFIED_TIME' from source candidates provided above, based on their similarity scores and data types: NUMBER...",deepseek,True,2,50,True,10,,0,2025-06-16T06:58:19.707302,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,ADT_LOAD_DATE,ACCOUNT_ACH_BATCH_LIMIT_REPORT.ADT_LOAD_DATE,STAGLOANRATEPMTNOTICE,ADDDATE,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.ADT_LOAD_DATE' from source candidates based on similarity score and data type of each candidate, which help...",deepseek,True,2,50,True,10,,0,2025-06-16T06:58:54.310433,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,ADT_FILE_SOURCE,ACCOUNT_ACH_BATCH_LIMIT_REPORT.ADT_FILE_SOURCE,RTXNAGREEMENT,TRAN_SOURCE_KEY,50,llm_fallback,"LLM response parsing failed: 
+``` 
+This is a step-by-step analysis of the provided data source candidates. The best match for 'ACCOUNT_ACH_BATCH_LIMIT_REPORT' field from RTXNAGREEMENT table based on similarity score and context w...",deepseek,True,2,50,True,10,,0,2025-06-16T06:59:33.931311,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,ADT_HASH_KEY,ACCOUNT_ACH_BATCH_LIMIT_REPORT.ADT_HASH_KEY,RTXNAGREEMENT,TRAN_SOURCE_KEY,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a common issue when dealing with data mapping. The best source match can be determined by comparing the similarity score of each candidate against your target field's actual value or c...",deepseek,True,2,50,True,10,,0,2025-06-16T07:00:05.283353,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,DBT_SCD_ID,ACCOUNT_ACH_BATCH_LIMIT_REPORT.DBT_SCD_ID,SDBTYP,SDBTYPDESC,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a mapping problem where you need to find the best source match for field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT.DBT_SCD_ID'. The sources are: SDBTYPDESC, VIEW_WH_SDBACCT.SDBTYPDESC (account),...",deepseek,True,2,50,True,10,,0,2025-06-16T07:00:51.490170,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,DBT_UPDATED_AT,ACCOUNT_ACH_BATCH_LIMIT_REPORT.DBT_UPDATED_AT,SP_DEBUG,DEBUGDATE,50,llm_fallback,"LLM response parsing failed: 
+``` 
+The best source match is the one with highest similarity score (0.3928) and data type of DATE for field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT'.DBT_UPDATED_AT, which seems to be a date-time value in da...",deepseek,True,2,50,True,10,,0,2025-06-16T07:01:22.808264,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,DBT_VALID_FROM,ACCOUNT_ACH_BATCH_LIMIT_REPORT.DBT_VALID_FROM,CTRYTAXIDTYP,TAXIDFORMAT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to help you understand the context and analyze your data. It's important that this process helps in identifying which source field should be mapped 'ACCOUNT_ACH_BA...",deepseek,True,2,50,True,10,,0,2025-06-16T07:02:00.317221,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,DBT_VALID_TO,ACCOUNT_ACH_BATCH_LIMIT_REPORT.DBT_VALID_TO,VIEW_ORGPAYEEORG,VALIDATIONDATE,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to help you understand the data source and its similarity score. The best match for your target field 'ACCOUNT_ACH_BATCH_LIMIT_REPORT' would be based on these scor...",deepseek,True,2,50,True,10,,0,2025-06-16T07:02:36.902524,1,False
+ACCOUNT_ACH_BATCH_LIMIT_REPORT,RECORD_SK,ACCOUNT_ACH_BATCH_LIMIT_REPORT.RECORD_SK,VIEW_FILERECORD,RECORDDATA,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a system of analysis and mapping for the banking data expert. The source candidates are provided in order from highest similarity to lowest, with each candidate's details displayed sep...",deepseek,True,2,50,True,10,,0,2025-06-16T07:03:08.474345,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,ANB_ID,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.ANB_ID,VIEW_ACTVSUBACTV_PCI,TABLEID,50,llm_fallback,"LLM response parsing failed: 
+``` 
+This script is used to analyze the source candidates and provide a best match. The analysis involves comparing similarity scores, data types of fields in different sources for mapping purposes b...",deepseek,True,2,50,True,10,,0,2025-06-16T07:04:05.946075,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,ROW_NUM,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.ROW_NUM,STAGSEARCHFORPARTY,ROWNUMBER,50,llm_fallback,"LLM response parsing failed: 
+``` 
+The best source match is the one with highest similarity score of '0.4972'. The context and comments in this case are not very helpful as they don't provide any additional information about what...",deepseek,True,2,50,True,10,,0,2025-06-16T07:04:37.800718,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,PROCESSING_DATE,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.PROCESSING_DATE,STAGLOANTRIAL,ODEXCESSINTRATE,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.PROCESSING_DATE' from source candidate #1 (SOURCE: STAGLOANTRIAL.ODEXCESSINTRATE) with target system, SYSTEM(SY...",deepseek,True,2,50,True,10,,0,2025-06-16T07:06:07.489152,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,PAYMENT_ACH_BATCHES,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.PAYMENT_ACH_BATCHES,WH_ACCTLOAN,LASTPAYMENTDATE,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,10,,0,2025-06-16T07:06:40.776372,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,PAYMENT_ACH_ITEMS,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.PAYMENT_ACH_ITEMS,WH_ACCTLOAN,LASTPAYMENTDATE,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.PAYMENT_ACH_ITEMS' from source candidates based on their similarity score and data type, which helps in ...",deepseek,True,2,50,True,10,,0,2025-06-16T07:07:17.921690,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,PAYMENT_TOTAL_CREDITS,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.PAYMENT_TOTAL_CREDITS,WH_ACCTLOANPARTAGREE,PARTACCRUEDINT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step process to map the target field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.PAYMENT_TOTAL_CREDITS' from source candidates based on their similarity score and data type, primary k...",deepseek,True,2,50,True,10,,0,2025-06-16T07:07:57.668893,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,PAYMENT_TOTAL_DEBITS,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.PAYMENT_TOTAL_DEBITS,WH_ACCTLOAN,LASTPAYMENTDATE,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.PAYMENT_TOTAL_DEBITS' from source candidates based on their similarity score and data type, as per your ...",deepseek,True,2,50,True,10,,0,2025-06-16T07:08:41.147563,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,SFT_ACH_BATCHES,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.SFT_ACH_BATCHES,SLPSACAT,SLPSACATDESC,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a common problem in data mapping, where the source and target fields are not directly related. In this case, we can map 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY' to SLPSACATDESC or CONSTCATD...",deepseek,True,2,50,True,10,,0,2025-06-16T07:09:18.956927,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,SFT_ACH_ITEMS,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.SFT_ACH_ITEMS,RTXNFUNDTYP,NBROFITEMS,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide on how to map the field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.SFT_ACH_ITEMS' from source RTXNFUNDTYPANALYSIS and VIEW_FILEWAREHOUSE based upon their similarities in d...",deepseek,True,2,50,True,10,,0,2025-06-16T07:09:58.130573,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,SFT_TOTAL_CREDITS,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.SFT_TOTAL_CREDITS,STAGSEARCHFORPARTY,TOTALRESULTS,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.SFT_TOTAL_CREDITS' from source candidates provided above, based on their similarity scores and data type...",deepseek,True,2,50,True,10,,0,2025-06-16T07:10:41.264811,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,SFT_TOTAL_DEBITS,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.SFT_TOTAL_DEBITS,STAGSEARCHFORPARTY,TOTALRESULTS,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.SFT_TOTAL_DEBITS' from source candidates provided above, based on similarity scores and data types of ea...",deepseek,True,2,50,True,10,,0,2025-06-16T07:11:33.883763,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,COMBINED_ACH_BATCHES,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.COMBINED_ACH_BATCHES,VIEW_FILEIRS,COMBINEDNBR,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.COMBINED_ACH_BATCHES' from source candidates based on their similarity score and data type, as per your ...",deepseek,True,2,50,True,10,,0,2025-06-16T07:12:37.091730,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,COMBINED_ACH_ITEMS,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.COMBINED_ACH_ITEMS,VIEW_WH_CARDS2_PCI,COMBINEDDAILYWTHDLLIMITAMT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.COMBINED_ACH_ITEMS' from source VIEW_WH_CARDS2_PCI.COMBINEDDAILYWTHDLLIMITAMT, which is similar in terms of dat...",deepseek,True,2,50,True,10,,0,2025-06-16T07:13:21.337006,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,COMBINED_TOTAL_CREDITS,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.COMBINED_TOTAL_CREDITS,VIEW_FILEIRS,COMBINEDNBR,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,10,,0,2025-06-16T07:13:54.470689,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,COMBINED_TOTAL_DEBITS,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.COMBINED_TOTAL_DEBITS,VIEW_FILEIRS,COMBINEDNBR,50,llm_fallback,"LLM response parsing failed: 
+...",deepseek,True,2,50,True,10,,0,2025-06-16T07:14:31.518276,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,ADT_LOAD_DATE,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.ADT_LOAD_DATE,STAGLOANRATEPMTNOTICE,ADDDATE,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a system for mapping the target field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.ADT_LOAD_DATE' to one of several source candidates based on similarity score and data type, which in this case ...",deepseek,True,2,50,True,10,,0,2025-06-16T07:15:09.010569,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,ADT_FILE_SOURCE,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.ADT_FILE_SOURCE,RTXNAGREEMENT,TRAN_SOURCE_KEY,50,llm_fallback,"LLM response parsing failed: 
+``` 
+This is a step-by-step guide to map the field 'ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.ADT_FILE_SOURCE' from your banking data expert system, based on similarities and domains in different sources of ...",deepseek,True,2,50,True,10,,0,2025-06-16T07:15:47.671380,1,False
+ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY,ADT_HASH_KEY,ACCOUNT_ACH_BATCH_PAYMENT_SUMMARY.ADT_HASH_KEY,RTXNAGREEMENT,TRAN_SOURCE_KEY,50,llm_fallback,"LLM response parsing failed: 
+``` 
+This is a step-by-step process to analyze the data and provide best mapping. The analysis involves comparing different sources with their similarity scores, identifying primary keys (if any), do...",deepseek,True,2,50,True,10,,0,2025-06-16T07:16:26.691161,1,False
+ACCOUNT_ACH_BATCH_PROCESS,ANB_ID,ACCOUNT_ACH_BATCH_PROCESS.ANB_ID,VIEW_ACTVSUBACTV_PCI,TABLEID,50,llm_fallback,"LLM response parsing failed: 
+``` 
+The best source match is the one with highest similarity score of '0.4132'. The context and comments are not provided in this case, but they could be useful for further analysis or decision maki...",deepseek,True,2,50,True,10,,0,2025-06-16T07:17:17.582071,1,False
+ACCOUNT_ACH_BATCH_PROCESS,TRIGGER_DATE,ACCOUNT_ACH_BATCH_PROCESS.TRIGGER_DATE,SDBTYPBANKORGFEEHIST,TERMDATE,50,llm_fallback,"LLM response parsing failed: 
+``` 
+The best source match for the field 'ACCOUNT_ACH_BATCH_PROCESS.TRIGGER_DATE' is SOURCE: RTXN.ORIGPOSTDATE with a similarity score of approximately .429, indicating that this data type may be mor...",deepseek,True,2,50,True,10,,0,2025-06-16T07:18:18.541645,1,False
+ACCOUNT_ACH_BATCH_PROCESS,TRIGGER_NAME,ACCOUNT_ACH_BATCH_PROCESS.TRIGGER_NAME,STAGBANKMATCH,FIRST_NAME,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_PROCESS.TRIGGER_NAME' from source candidates based on their similarity scores and data types, which are provided in your...",deepseek,True,2,50,True,10,,0,2025-06-16T07:19:14.175919,1,False
+ACCOUNT_ACH_BATCH_PROCESS,FILE_NAME,ACCOUNT_ACH_BATCH_PROCESS.FILE_NAME,VIEW_ACHFILERECORDWAREHOUSE,FILENAME,50,llm_fallback,"LLM response parsing failed: 
+``` 
+The best source match is the one with highest similarity of '0.6598'. The context and comments are not provided in this case, but they could be useful for future analysis or troubleshooting purp...",deepseek,True,2,50,True,10,,0,2025-06-16T07:20:09.548525,1,False
+ACCOUNT_ACH_BATCH_PROCESS,NUMBER_OF_ITEMS,ACCOUNT_ACH_BATCH_PROCESS.NUMBER_OF_ITEMS,RTXNFUNDTYP,NBROFITEMS,50,llm_fallback,"LLM response parsing failed: 
+``` 
+The best source candidate is the SOURCE: RTXNFUNDTYP.NBROFITEMS, with a similarity score of approximately .523 (this value ranges from zero to one). The data type for this field in your database...",deepseek,True,2,50,True,10,,0,2025-06-16T07:21:15.869389,1,False
+ACCOUNT_ACH_BATCH_PROCESS,CREDIT_AMOUNT,ACCOUNT_ACH_BATCH_PROCESS.CREDIT_AMOUNT,STAGLOANTRIAL,CREDITLIMITAMT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_PROCESS.CREDIT_AMOUNT' from source candidates provided above, based on their similarity scores and data types respective...",deepseek,True,2,50,True,10,,0,2025-06-16T07:22:22.180805,1,False
+ACCOUNT_ACH_BATCH_PROCESS,DEBIT_AMOUNT,ACCOUNT_ACH_BATCH_PROCESS.DEBIT_AMOUNT,VIEW_BILLPAYTXNABBILLPMT,AMOUNT,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_PROCESS.DEBIT_AMOUNT' from source candidates based on their similarity score and data type, which can be used for furthe...",deepseek,True,2,50,True,10,,0,2025-06-16T07:22:51.711240,1,False
+ACCOUNT_ACH_BATCH_PROCESS,PROCESSING_TIME,ACCOUNT_ACH_BATCH_PROCESS.PROCESSING_TIME,STAGLOANTRIAL,ODEXCESSINTRATE,50,llm_fallback,"LLM response parsing failed: 
+``` 
+The best mapping is the one with a similarity of approximately `0.43`, which means that it's about an accuracy rate between these three sources: SOURCE1 (STAGLOANTRIAL),SOURCE2(WH_ACCTDEPOSIT) a...",deepseek,True,2,50,True,10,,0,2025-06-16T07:23:16.777805,1,False
+ACCOUNT_ACH_BATCH_PROCESS,PROCESSING_EXCEPTION,ACCOUNT_ACH_BATCH_PROCESS.PROCESSING_EXCEPTION,VIEW_CARDTXN_PCI,PROCESSTYPCD,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a step-by-step guide to map the target field 'ACCOUNT_ACH_BATCH_PROCESS.PROCESSING_EXCEPTION' from source candidates provided above, based on their similarity scores and data types: NU...",deepseek,True,2,50,True,10,,0,2025-06-16T07:23:46.142234,1,False
+ACCOUNT_ACH_BATCH_PROCESS,ADT_LOAD_DATE,ACCOUNT_ACH_BATCH_PROCESS.ADT_LOAD_DATE,STAGLOANRATEPMTNOTICE,ADDDATE,50,llm_fallback,"LLM response parsing failed:  
+```  
+This is a mapping problem, where you need to find the best source for 'ACCOUNT_ACH_BATCH_PROCESS.ADT_LOAD_DATE'. The sources are: STAGLOANRATEPMTNOTICE.ADDDATE (similarity = 0.44), DOC.ADDDATE...",deepseek,True,2,50,True,10,,0,2025-06-16T07:24:18.345572,1,False

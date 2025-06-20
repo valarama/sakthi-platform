@@ -1,0 +1,5 @@
+table_name,column_name
+customer_master,customer_id
+customer_master,first_name
+customer_master,last_name
+customer_master,email_address

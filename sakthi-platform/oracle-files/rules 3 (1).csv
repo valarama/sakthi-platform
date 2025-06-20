@@ -1,0 +1,47 @@
+column_name,rules
+MEMRECNO,Should be a valid number
+MEMRECNO,Should not be negative or outside expected range
+MEMIDNUM,Should be a valid number
+MEMIDNUM,Should not be negative or outside expected range
+PATIENT_NAME_FIRSTNAME,Should contain valid and meaningful text
+PATIENT_NAME_FIRSTNAME,Should not contain special characters or be blank
+PATIENT_NAME_MIDDLENAME,Should contain valid and meaningful text
+PATIENT_NAME_MIDDLENAME,Should not contain special characters or be blank
+PATIENT_NAME_LASTNAME,Should contain valid and meaningful text
+PATIENT_NAME_LASTNAME,Should not contain special characters or be blank
+DATE_OF_BIRTH,Should be a valid number
+DATE_OF_BIRTH,Should not be negative or outside expected range
+GENDER,Should contain valid and meaningful text
+GENDER,Should not contain special characters or be blank
+EMAIL,Should contain valid and meaningful text
+EMAIL,Should not contain special characters or be blank
+HOME_PHONE_NUMBER,Should contain valid and meaningful text
+HOME_PHONE_NUMBER,Should not contain special characters or be blank
+WORK_OTHER_PHONE_NUMBER,Should contain valid and meaningful text
+WORK_OTHER_PHONE_NUMBER,Should not contain special characters or be blank
+SOCIAL_SECURITY_NUMBER,Should contain valid and meaningful text
+SOCIAL_SECURITY_NUMBER,Should not contain special characters or be blank
+DRIVERS_LICENSE_NUMBER,Should contain valid and meaningful text
+DRIVERS_LICENSE_NUMBER,Should not contain special characters or be blank
+MEDICAL_RECORD_NUMBER,Should be a valid number
+MEDICAL_RECORD_NUMBER,Should not be negative or outside expected range
+HOME_ADDRESS_STLINE1,Should contain valid and meaningful text
+HOME_ADDRESS_STLINE1,Should not contain special characters or be blank
+HOME_ADDRESS_STLINE2,Should contain valid and meaningful text
+HOME_ADDRESS_STLINE2,Should not contain special characters or be blank
+HOME_ADDRESS_ZIPCODE,Should be a valid number
+HOME_ADDRESS_ZIPCODE,Should not be negative or outside expected range
+HOME_ADDRESS_CITY,Should contain valid and meaningful text
+HOME_ADDRESS_CITY,Should not contain special characters or be blank
+HOME_ADDRESS_STATE,Should contain valid and meaningful text
+HOME_ADDRESS_STATE,Should not contain special characters or be blank
+BILLING_ADDRESS_STLINE1,Should contain valid and meaningful text
+BILLING_ADDRESS_STLINE1,Should not contain special characters or be blank
+BILLING_ADDRESS_STLINE2,Should contain valid and meaningful text
+BILLING_ADDRESS_STLINE2,Should not contain special characters or be blank
+BILLING_ADDRESS_STLINE3,Should be a valid number
+BILLING_ADDRESS_STLINE3,Should not be negative or outside expected range
+BILLING_ADDRESS_ZIPCODE,Should be a valid number
+BILLING_ADDRESS_ZIPCODE,Should not be negative or outside expected range
+BILLING_ADDRESS_CITY,Should contain valid and meaningful text
+BILLING_ADDRESS_CITY,Should not contain special characters or be blank

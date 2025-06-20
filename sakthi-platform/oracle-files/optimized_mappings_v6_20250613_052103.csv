@@ -1,0 +1,4 @@
+target_table,target_column,source_table,source_column,mapping_type,confidence_score,mapping_method,notes,business_meaning_target,business_meaning_source,data_type_target,data_type_source,uuid_hash,alternative_mappings,processing_time_ms,batch_id
+customer,title,CUST,title,1:1,95.0,enhanced_banking_rule,Enhanced banking domain rule with 95% confidence,Data field title in CUST,Data field title in CUST,string,string,db35fc23-b1e5-6f22-b282-a374a0c40854,[],0.07462501525878906,sequential_0
+,,,,,0.0,,,,,,,,,3831.247091293335,sequential_1
+,,,,,0.0,,,,,,,,,2500.0271797180176,sequential_2

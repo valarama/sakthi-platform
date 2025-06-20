@@ -1,0 +1,11 @@
+﻿,Similarity,Table,Column,Domain,Data Type,Primary Key,Business Context
+0,-0.182,EXTENTITYTYPUSERFIELD,USERFIELDCD,general,VARCHAR2,True,"Table EXTENTITYTYPUSERFIELD, Column USERFIELDCD. Data type: VARCHAR2. Description: Identifies the User Fields that are related to the Entity Type.  On..."
+1,-0.196,EXTENTITYUSERFIELD,USERFIELDCD,general,VARCHAR2,True,"Table EXTENTITYUSERFIELD, Column USERFIELDCD. Data type: VARCHAR2. Description: Identifies the User Fields that are related to the Entity Type.  Only ..."
+2,-0.273,USERFIELD,USERFIELDCD,general,VARCHAR2,True,"Table USERFIELD, Column USERFIELDCD. Data type: VARCHAR2. Primary key field for unique identification. Related to: DATATYP, NAMESPACETOKEN..."
+3,-0.282,USERFIELDGRPUSERFIELD,USERFIELDCD,general,VARCHAR2,True,"Table USERFIELDGRPUSERFIELD, Column USERFIELDCD. Data type: VARCHAR2. Description: Identifies the user field assigned to the group.. Table purpose: Th..."
+4,-0.286,EXTENTITYTYPUSERFIELD,EXTENTITYTYPCD,general,VARCHAR2,True,"Table EXTENTITYTYPUSERFIELD, Column EXTENTITYTYPCD. Data type: VARCHAR2. Description: Identifies the types of external accounts in the database.  Exam..."
+5,-0.303,PERSUSERFIELD,USERFIELDCD,customer,VARCHAR2,True,"Table PERSUSERFIELD, Column USERFIELDCD. Data type: VARCHAR2. Primary key field for unique identification. Related to: PERS, USERFIELD..."
+6,-0.306,ORGUSERFIELD,USERFIELDCD,general,VARCHAR2,True,"Table ORGUSERFIELD, Column USERFIELDCD. Data type: VARCHAR2. Primary key field for unique identification. Related to: ORG, USERFIELD..."
+7,-0.309,FEDENROLLMENT,USERID,general,VARCHAR2,False,"Table FEDENROLLMENT, Column USERID. Data type: VARCHAR2. Description: Logon ID of the user creating the enrollment.. Related to: ACCT, FEDAGENCY. Iden..."
+8,-0.317,USERFIELDVALUE,USERFIELDCD,general,VARCHAR2,True,"Table USERFIELDVALUE, Column USERFIELDCD. Data type: VARCHAR2. Primary key field for unique identification. Related to: NAMESPACETOKEN, NAMESPACETOKEN..."
+9,-0.324,FEDENROLLMENT,ACCTNBR,general,NUMBER,True,"Table FEDENROLLMENT, Column ACCTNBR. Data type: NUMBER. Description: Account number to receive the direct deposit.. Primary key field for unique ident..."

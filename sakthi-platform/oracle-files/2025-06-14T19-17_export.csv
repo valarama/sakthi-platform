@@ -1,0 +1,10 @@
+﻿,Similarity,Table,Column,Domain,Data Type,Primary Key,Business Context
+0,0.179,AUTHCASHBOXTXNTYP,TXNLIMIT,transaction,NUMBER,False,"Table AUTHCASHBOXTXNTYP, Column TXNLIMIT. Data type: NUMBER. Description: The Transaction Limit is the maximum dollar amount allowed for the specified..."
+1,0.037,CARDAGREETYPRTXNRPTGRPLIMIT,DAILYLIMITAMT,"account,transaction",NUMBER,False,"Table CARDAGREETYPRTXNRPTGRPLIMIT, Column DAILYLIMITAMT. Data type: NUMBER. Description: The limit amount will be used to control daily transaction ac..."
+2,0.008,CARDAGREEMENTTYP,POSOFFLINELIMITAMT,account,NUMBER,False,"Table CARDAGREEMENTTYP, Column POSOFFLINELIMITAMT. Data type: NUMBER. Description: Transaction Amount Limit for OffLine POS activity. Related to: CARD..."
+3,-0.002,AUTHRTXNTYP,TXNLIMIT,transaction,NUMBER,False,"Table AUTHRTXNTYP, Column TXNLIMIT. Data type: NUMBER. Description: The Transaction Limit is the maximum dollar amount allowed for the transactions.. ..."
+4,-0.014,CARDAGREEMENTTYP,ATMOFFLINELIMITAMT,account,NUMBER,False,"Table CARDAGREEMENTTYP, Column ATMOFFLINELIMITAMT. Data type: NUMBER. Description: Transaction Amount Limit for OffLine ATM activity. Related to: CARD..."
+5,-0.019,ACCESSTYPRTXNRPTGRPLIMIT,LIMITAMT,transaction,NUMBER,False,"Table ACCESSTYPRTXNRPTGRPLIMIT, Column LIMITAMT. Data type: NUMBER. Description: The maximum amount allowed.. Table purpose: This table identifies spe..."
+6,-0.037,RPT_SCHEDLNRATEPMTCHG_PROCESS,PMTCHGTOLLIMIT,general,NUMBER,False,"Table RPT_SCHEDLNRATEPMTCHG_PROCESS, Column PMTCHGTOLLIMIT. Data type: NUMBER. Description: Payment change tolerance limit value for the account...."
+7,-0.046,CARDPERS,POSCREDITLIMITAMT,"customer,account",NUMBER,False,"Table CARDPERS, Column POSCREDITLIMITAMT. Data type: NUMBER. Description: Transaction Amount Limit for POS Credits. Related to: PERS, ACCT..."
+8,-0.047,RPT_SCHEDLOANPMTRECALC_PROCESS,PMTCHGTOLLIMIT,account,NUMBER,False,"Table RPT_SCHEDLOANPMTRECALC_PROCESS, Column PMTCHGTOLLIMIT. Data type: NUMBER. Description: Payment change tolerance limit value for the account.. Re..."
