@@ -273,8 +273,6 @@ The **Sakthi Platform** is a cutting-edge AI-driven data processing solution des
 
 ## 🏛️ Architecture Overview
 
-The following diagram illustrates the Sakthi Platform’s architecture, showcasing the flow between user interfaces, core services, AI agents, and storage systems.
-
 ```mermaid
 graph TD
     %% ========== LAYER DEFINITIONS ==========
