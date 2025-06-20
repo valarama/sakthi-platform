@@ -3,6 +3,17 @@
 The **MCP Language (Sakthi)** is a specialized framework for designing and executing **Model Context Protocols (MCP)** in Natural Language Processing (NLP). It provides a structured approach to managing context-aware workflows, semantic parsing, and integrating with large language models (LLMs) for decision-making and language transformation.
 
 ---
+## 🚀 System Highlights
+
+- **Scalable Processing:** Handle complex documents with natural language interfaces.
+- **LLM Integration:** Powered by **DeepSeek** for enhanced language generation.
+- **ChromaDB RAG:** Retrieval-augmented generation using vectorized context storage.
+- **Structured Outputs:** JSON, SQL, API responses, or custom formats.
+- **Future-Ready Architecture:** Easily expandable for new workflows or integrations.
+
+---
+
+Start processing your documents today with the Sakthi Platform!
 
 ## 🚀 Features
 
