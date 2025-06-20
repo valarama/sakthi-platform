@@ -97,13 +97,13 @@ sakthi-platform/
 ### 🌍 Local Development Setup
 
 1. Clone the repository:
-   ```bash
+  
    git clone https://github.com/your-org/sakthi-platform.git
    cd sakthi-platform
    ```
 
 2. Set up the Python environment:
-   ```bash
+
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r backend/requirements.txt
@@ -137,7 +137,7 @@ sakthi-platform/
 ### 🐳 Docker Deployment
 
 1. Build and start services:
-   ```bash
+ 
    docker-compose up --build
    ```
 
@@ -168,7 +168,7 @@ sakthi-platform/
 ### 🤖 LLM Server Setup
 
 1. Launch LLM servers for models like DeepSeek-Coder-6.7B and Codestral-22B:
-   ```bash
+
    # Example: launch_enhanced_llm_servers.sh
    #!/bin/bash
    source /home/appadmin/virenv/bin/activate
@@ -177,7 +177,7 @@ sakthi-platform/
    ```
 
 2. Verify endpoints:
-   ```bash
+
    curl http://localhost:11434/api/generate -d '{"prompt": "Test"}'
    curl http://localhost:11435/v1/chat/completions -d '{"messages": [{"role": "user", "content": "Test"}]}'
    ```
@@ -219,7 +219,7 @@ sakthi-platform/
    ```
 
 2. Dynamic prompt template (`config/prompt_template.json`):
-   ```json
+
    {
      "template": "Generate SQL for {{rule_type}}: {{rule_value}}",
      "rules": "{{rules_csv_content}}"
@@ -250,7 +250,7 @@ processor.process_target_excel("uploads/Account_Silver_Table_Column_List.xlsx")
 
 ### Model Mounting 💾
 Mount `/home/appadmin/modelslist` from one server (e.g., `10.100.15.67`) to another (e.g., `10.100.15.66`) using NFS:
-```bash
+
 mount 10.100.15.67:/home/appadmin/modelslist /mnt/modelslist
 ```
 
@@ -264,6 +264,121 @@ mount 10.100.15.67:/home/appadmin/modelslist /mnt/modelslist
 - 🆕 Support for additional models (e.g., Mistral_7B, Phi_2).
 
 ---
+
+# 🌟 Sakthi Platform
+
+The **Sakthi Platform** is a cutting-edge AI-driven data processing solution designed for schema transformations, natural language processing, and workflow orchestration.
+
+---
+
+## 🏛️ Architecture Overview
+
+The following diagram illustrates the Sakthi Platform’s architecture, showcasing the flow between user interfaces, core services, AI agents, and storage systems.
+
+```mermaid
+graph TD
+    %% ========== LAYER DEFINITIONS ==========
+    subgraph "User Interface Layer"
+        UI[("Web Interface<br/>(Next.js)")]
+        API_GW[["API Gateway"]]
+    end
+
+    subgraph "Sakthi Core Services"
+        ENGINE[["Sakthi Engine"]]
+        PARSER[["Parser"]]
+        INTENT[["Intent Analyzer"]]
+        OUTPUT[["Output Generator"]]
+    end
+
+    subgraph "Document Processing"
+        DOC_PROC[["Document Processor"]]
+        PDF[("PDF Handler")]
+        CSV[("CSV Handler")]
+        DOCX[("DOCX Handler")]
+        JSON[("JSON Handler")]
+        WEB[["Web Scraper"]]
+    end
+
+    subgraph "AI Agent Framework"
+        ORCHESTRATOR[["LangGraph<br/>Orchestrator"]]
+        EXTRACTOR[("Extractor Agent<br/>(AutoGen)")]
+        MAPPER[("Mapper Agent<br/>(AutoGen)")]
+        VERIFIER[("Verifier Agent<br/>(AutoGen)")]
+    end
+
+    subgraph "MCPP Generation"
+        MCPP[["Schema Generator"]]
+        PATTERN[("Pattern Recognition")]
+        MAPPING[("Mapping Engine")]
+        VERSION[("Version Control")]
+    end
+
+    subgraph "External Services"
+        SERPAPI[("SerpAPI")]
+        OPENAI[("OpenAI/LLM")]
+        METADATA[("Metadata APIs")]
+        ATLAN[("Atlan")]
+        COLLIBRA[("Collibra")]
+    end
+
+    subgraph "Storage Layer"
+        STORAGE[["Storage Manager"]]
+        DB_CONN[["Database<br/>Connectors"]]
+        CLOUD[("Cloud Storage")]
+        CACHE[("Redis Cache")]
+    end
+
+    subgraph "Target Systems"
+        RDBMS[("Relational DBs<br/>(Oracle, PostgreSQL)")]
+        DW[("Data Warehouses<br/>(BigQuery, Snowflake)")]
+        NOSQL[("NoSQL<br/>(MongoDB)")]
+        OBJ_STORE[("Object Storage<br/>(AWS S3)")]
+    end
+
+    %% ========== PRIMARY DATA FLOW ==========
+    UI -->|User Requests| API_GW
+    API_GW -->|Process| ENGINE
+    
+    %% Document Processing
+    UI -->|Uploads| DOC_PROC
+    DOC_PROC --> PDF & CSV & DOCX & JSON & WEB
+    WEB -->|Search| SERPAPI
+    PDF & CSV & DOCX & JSON -->|Extracted Data| ENGINE
+    
+    %% Sakthi Processing
+    ENGINE -->|Parse| PARSER
+    PARSER -->|Analyze| INTENT
+    INTENT -->|Generate| OUTPUT
+    
+    %% AI Agent Workflow
+    ENGINE -->|Orchestrate| ORCHESTRATOR
+    ORCHESTRATOR --> EXTRACTOR & MAPPER & VERIFIER
+    
+    %% MCPP Generation
+    MAPPER -->|Generate Schema| MCPP
+    MCPP --> PATTERN & MAPPING & VERSION
+    
+    %% External Integrations
+    EXTRACTOR & MAPPER & VERIFIER -->|LLM Calls| OPENAI
+    VERIFIER -->|Metadata| METADATA
+    METADATA --> ATLAN & COLLIBRA
+    
+    %% Storage & Output
+    OUTPUT -->|Store| STORAGE
+    STORAGE --> DB_CONN & CLOUD & CACHE
+    OUTPUT -->|Write| DB_CONN
+    
+    %% Target Connections
+    DB_CONN --> RDBMS & DW & NOSQL
+    CLOUD --> OBJ_STORE
+
+    %% ========== LEGEND ==========
+    LEGEND[("Legend:<br/>
+    🔵 User Interface | 🟣 Core Services<br/>
+    🟢 Document Processing | 🟡 AI Agents<br/>
+    🟠 Schema Generation | 🔴 External Services<br/>
+    🟣 Storage | 🔗 Connectors | 🟢 Target Systems")]
+
 
 ## 🛡️ License
 
