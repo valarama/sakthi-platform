@@ -273,7 +273,7 @@ The **Sakthi Platform** is a cutting-edge AI-driven data processing solution des
 
 ## 🏛️ Architecture Overview
 
-![Architecture](architecture.svg)
+![Architecture](![sakthi_architecture](https://github.com/user-attachments/assets/e5486004-a1ba-4b96-8007-c80c2d06e88d))
 
 
 ## 🛡️ License
